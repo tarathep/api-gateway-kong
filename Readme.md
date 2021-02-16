@@ -29,6 +29,8 @@ docker-compose up -d
 ### Create account for manage
 register input username , email , password for login to kongka
 
+---
+
 ### Add New Connection
 - enter name
 - enter kong admin api : in this case use docker-compose can call name | http://{host}/port
@@ -37,6 +39,8 @@ register input username , email , password for login to kongka
 <img src="./images/create-connection.JPG" alt="drawing" width="50%">
 
 - you can see dashboard
+
+---
 
 ### Router to service
 1. create add new service
@@ -47,8 +51,19 @@ register input username , email , password for login to kongka
 
 <img src="./images/add-route-to.JPG" alt="drawing" width="50%">
 
+---
+
 ### Basic Auth Access Plugin
+- add plugin scope service
 
+<img src="./images/add-plugin.JPG" alt="drawing" width="50%">
 
+- create consumer for auth
+    - username
+    - password
+- create credential
+    - username
+    - password
 
+<img src="./images/create-consumers.JPG" alt="drawing" width="50%">
 
