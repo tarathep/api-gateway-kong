@@ -1,6 +1,6 @@
 # KONG API Gateway Demo
 
-![Kong Logo](https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/kong-combination-mark-colors-128px.png)
+![Kong Logo](https://2tjosk2rxzc21medji3nfn1g-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/kong-combination-mark-colors.svg)
 
 
 Kong API Gateway deployment with docker and docker-compose
