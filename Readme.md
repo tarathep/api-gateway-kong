@@ -4,6 +4,7 @@
 
 Kong API Gateway deployment with docker and docker-compose
 
+<img src="./dashboard.JPG" alt="drawing" width="70%">
 
 
 ## Quick start
