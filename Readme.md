@@ -24,10 +24,12 @@ docker-compose up -d
 - Kong Proxy HTTPS http://127.0.0.1:8443
 - Kong Admin  http://127.0.0.1:8001
 - KONG Admin SSL http://127.0.0.1:8444
+- KONGA Admin GUI http://127.0.0.1:1337
 
 
 ### Create account for manage
-register input username , email , password for login to kongka
+- goto Konga admin login
+- register input username , email , password for login to kongka
 
 ---
 
