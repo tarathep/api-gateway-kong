@@ -1,0 +1,17 @@
+FROM golang:1.16.0-alpine3.13 AS app
+ENV GO111MODULE=on
+ENV CGO_ENABLED=0 GOFLAGS=-mod=vendor
+WORKDIR /app
+COPY . /app
+
+COPY  go.mod .
+COPY  go.sum .
+
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -mod=vendor
+
+FROM alpine
+COPY --from=app /app/api1 .
+
+EXPOSE 2001
+ENTRYPOINT [ "./api1" ]
+
