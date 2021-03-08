@@ -13,6 +13,11 @@ Build apps faster with a full-stack platform that seamlessly delivers API manage
 
 **Official Stte** https://konghq.com
 
+## Slide
+
+<a href="https://docs.google.com/presentation/d/1_OvWbxvZB0GJSVfyUxKdnoHj587gnjRE3y6b37Dv7SU/edit#slide=id.p"><img src="./images/label.JPG" width=35%></a>
+
+
 ## Quick start
 
 ```
